@@ -476,7 +476,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [PLAY] : %s/%s -> \033[0;92m [ PLAY-OK:%s ]- \033[0;91m[PLAY-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [BJ-TM] : %s/%s -> \033[0;92m [ BJ-TM-OK:%s ]- \033[0;91m[BJ-TM-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
