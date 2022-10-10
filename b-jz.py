@@ -78,7 +78,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://github.com/BAPJI-BJ-TM/Approve.txt').text
+			plr = requests.get('https://github.com/BAPJI-BJ-TM/Approve.txt/blob/main/Arif.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mPREMIUM")
@@ -115,7 +115,7 @@ class Main:
 \033[1;97m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : DONT TRY TO COPPY MY SCRYPT
 \033[1;90m═══════════════════════════════════════════════════════════
     """)
-		print("%s [%s•%s] %sTOOL NAME : %sBAP JI❌ PROO CLONER❌"%(G,R,G,B,G))
+		print("%s [%s•%s] %sTOOL NAME : %sBAP JI🔥 PROO CLONER🔥"%(G,R,G,B,G))
 		print("%s [%s•%s] %sVERSION   : %s2.0"%(G,R,G,B,G))
 		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
 		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
